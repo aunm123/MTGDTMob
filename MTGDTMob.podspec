@@ -19,10 +19,10 @@ Pod::Spec.new do |s|
 
     s.source       = { :git => "https://github.com/aunm123/MTGDTMob.git", :tag => "#{s.version}" }
 
-    s.source_files = "libs/*.h"
-    s.public_header_files = "libs/*.h"
+    s.source_files = "*.h"
+    s.public_header_files = "*.h"
 
-    s.preserve_paths = "libs/*.a"
+    s.preserve_paths = "*.a"
     s.framework = 'Foundation','UIKit'
     s.weak_frameworks = 'AdSupport','CoreLocation','QuartzCore','CoreText','CoreGraphics','StoreKit','SystemConfiguration','Security','CoreTelephony'
     s.libraries = 'z','GDTMobSDK'
