@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
     s.name         = "MTGDTMob"
     s.version      = "4.3"
-    s.summary      = "A short description of MTGDTMob."
+    s.summary      = "MTGDTMob FOR PERSON."
 
     s.homepage     = "http://e.qq.com/dev/index.html"
 
@@ -28,6 +28,6 @@ Pod::Spec.new do |s|
     s.libraries = 'z','GDTMobSDK'
     s.requires_arc = true
 
-    s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => "$(PODS_ROOT)/#{s.name}" }
+    #s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => "$(PODS_ROOT)/#{s.name}" }
 
 end
