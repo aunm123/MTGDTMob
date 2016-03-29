@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
     s.name         = "MTGDTMob"
-    s.version      = "4.2.0"
+    s.version      = "4.3"
     s.summary      = "MTGDTMob FOR PERSON."
 
     s.homepage     = "http://e.qq.com"
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
     s.author             = { "Tim" => "aunm123@yeah.net" }
 
-    s.platform     = :ios, "5.0"
+    s.platform     = :ios, "6.0"
 
     s.source       = { :git => "https://github.com/aunm123/MTGDTMob.git", :tag => "#{s.version}" }
 
@@ -28,6 +28,5 @@ Pod::Spec.new do |s|
     s.libraries = 'z','GDTMobSDK'
     s.requires_arc = true
 
-    #s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => "$(PODS_ROOT)/#{s.name}" }
-
+    s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => "$(PODS_ROOT)/#{s.name}" }
 end
