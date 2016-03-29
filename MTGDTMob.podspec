@@ -2,10 +2,10 @@
 Pod::Spec.new do |s|
 
     s.name         = "MTGDTMob"
-    s.version      = "4.3"
+    s.version      = "4.2"
     s.summary      = "MTGDTMob FOR PERSON."
 
-    s.homepage     = "http://e.qq.com/dev/index.html"
+    s.homepage     = "http://e.qq.com"
 
     s.license  = {
         :type => 'Cpoyright',
