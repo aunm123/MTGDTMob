@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
     s.name         = "MTGDTMob"
-    s.version      = "4.2"
+    s.version      = "4.2.0"
     s.summary      = "MTGDTMob FOR PERSON."
 
     s.homepage     = "http://e.qq.com"
